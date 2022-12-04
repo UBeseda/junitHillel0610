@@ -1,3 +1,11 @@
+//выполнить Д3№10 с помощью JUnit
+//написать тест который:зайдет на страничку https://demoqa.com/automation-practice-form
+//заполнит поля :
+//Name
+//Email
+//Mobile
+//Subjects
+
 package tests;
 
 import configuration.BaseClass;
