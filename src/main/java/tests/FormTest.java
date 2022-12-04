@@ -1,4 +1,4 @@
-package Tests;
+package tests;
 
 import configuration.BaseClass;
 import data.User;
