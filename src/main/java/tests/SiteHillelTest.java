@@ -6,8 +6,6 @@ import org.junit.Test;
 import org.openqa.selenium.support.PageFactory;
 import pages.JavaBasicPage;
 
-import static pages.JavaBasicPage.*;
-
 public class SiteHillelTest extends BaseClass {
     static final String mainURL= "https://ithillel.ua/courses/introduction-kiev";
     static JavaBasicPage javaBasic = PageFactory.initElements(driver, JavaBasicPage.class);

@@ -25,8 +25,7 @@ public class JavaBasicPage {
 
     public  WebElement getCourseRate() {return Rate;}
 
-    public  WebElement getCourseDescription() {return Description;
-    }
+    public  WebElement getCourseDescription() {return Description;}
 
     public  WebElement getCourseGoals() {return Goals;
     }
