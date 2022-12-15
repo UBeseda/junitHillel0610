@@ -1,8 +1,9 @@
+// Cтворюємо данні для юзера і запускаємо тест "Form Test"
 package data;
 
 public class User {
 
-    public User(String name,String email,String mobile,String subjects){
+  public User(String name, String email, String mobile, String subjects){
         this.name=name;
         this.email=email;
         this.mobile=mobile;
@@ -12,6 +13,7 @@ public class User {
     String name;
     String email;
 
+
     public String getName() {
         return name;
     }
@@ -20,7 +22,7 @@ public class User {
         return email;
     }
 
-    public String getMobile() {
+    public String  getMobile() {
         return mobile;
     }
 
