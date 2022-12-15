@@ -21,8 +21,8 @@ public class SiteHillelTest extends BaseClass {
     public void SiteHillelTest() {
         // driver.get("https://demoqa.com/automation-practice-form"); // ВИНЕСЛИ відкриття головн. сторінки в @Before
          System.out.println(javaBasic.getCourseTitle().getText());
-         System.out.println(javaBasic.getCourseRate().getText());
          System.out.println(javaBasic.getCourseDescription().getText());
+        System.out.println(javaBasic.getCourseRate().getText());
          System.out.println(javaBasic.getCourseGoals().getText());
     }
 }
