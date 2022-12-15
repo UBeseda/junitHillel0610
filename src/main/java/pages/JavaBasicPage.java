@@ -1,3 +1,10 @@
+//Написать Page Factory or PageObject для страницы курса Java Basic (https://ithillel.ua/courses/introduction-kiev)
+// в котором реализовать методы ( возвращают строку):
+//getCourseTitle()
+//getCourseRate()
+//getCourseDescription()
+//getCourseGoals()
+
 package pages;
 
 import org.openqa.selenium.WebElement;
