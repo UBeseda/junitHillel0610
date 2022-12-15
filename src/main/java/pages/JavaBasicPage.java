@@ -4,10 +4,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class JavaBasicPage {
- //   public static Object getCourseTitle;
 
     // Локаторы
-    @FindBy(xpath = "//*[@id=\"body\"]/div[1]/main/div/div[2]/div/div/h1")
+    @FindBy(xpath = "/html/head/title" )
     WebElement Title;
 
     @FindBy(xpath = "//*[@id=\"body\"]/div[1]/main/section[1]/div[3]/div/div/div[2]/div/span")
@@ -22,7 +21,6 @@ public class JavaBasicPage {
 // Сам метод
     public WebElement getCourseTitle() {return Title;
     }
-
     public  WebElement getCourseRate() {return Rate;}
 
     public  WebElement getCourseDescription() {return Description;}
