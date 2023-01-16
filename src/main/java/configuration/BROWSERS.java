@@ -1,5 +1,6 @@
 package configuration;
 
 public enum BROWSERS {
-    CHROMEINCOGNITO, FIREFOX,
+    CHROMEINCOGNITO, FIREFOX,CHROMEWITHPROXY
+
 }
