@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 
 public class BaseClass {
     public static WebDriver driver;
+
 //Будет вызываться каждый раз перед выполнением команды
     @BeforeClass
     public static void createDriver() {
